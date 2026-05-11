@@ -3,8 +3,6 @@ version: '3.8'
 services:
   kiro-go:
     build: .
-    ports:
-      - "8080:8080"
     volumes:
       - kiro-data:/app/data
     environment:
